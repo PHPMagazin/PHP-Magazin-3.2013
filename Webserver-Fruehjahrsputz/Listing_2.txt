@@ -1,0 +1,1 @@
+server {  server_name localhost;  root /var/www/htdocs;  location / {    try_files $uri @php  }  location @php {    fastcgi_pass    127.0.0.1:9000;    include         fastcgi_params;    fastcgi_param  SCRIPT_FILENAME  /var/www/bootstrap.php;    fastcgi_param  SCRIPT_NAME      /bootstrap.php;    fastcgi_param  QUERY_STRING     uri=$uri&$args;  }}
