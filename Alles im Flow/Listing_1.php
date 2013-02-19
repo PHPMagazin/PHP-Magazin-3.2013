@@ -1,0 +1,1 @@
+public function createInvoiceAction(Invoice $invoice) {  $this->invoiceRepository->add($invoice);}public function updateInvoiceAction(Invoice $invoice) {  $invoice->setLastModified(new \DateTime());  $this->invoiceRepository->update($invoice);}

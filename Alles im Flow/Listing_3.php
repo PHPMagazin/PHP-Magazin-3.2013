@@ -1,0 +1,1 @@
+/** * @Flow\Aspect */class LoggingAspect {  /**   * @Flow\Inject   * @var \TYPO3\Flow\Log\SystemLoggerInterface   */  protected $systemLogger;
