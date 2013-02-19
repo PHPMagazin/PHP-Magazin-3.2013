@@ -1,0 +1,1 @@
+function doSomething(paramA$0, paramB$1) {    console.log(paramA$0, paramB$1);}doSomething('Hello', 'World');

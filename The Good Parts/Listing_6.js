@@ -1,0 +1,1 @@
+class Greeter {    constructor(name) {        this.name = name    }    greet() {        console.log("Hello " + this.name + "!");    }    getName() {        return this.name;    }}var world = new Greeter("World");world.greet();

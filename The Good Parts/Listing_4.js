@@ -1,0 +1,1 @@
+function hello(name$1) {    console.log('Hello ' + name$1 + '!');}
