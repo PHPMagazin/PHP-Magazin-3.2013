@@ -1,0 +1,1 @@
+ test_consumer:            connection: default            exchange_options: {name: 'test_exchange', type: direct}            queue_options:    {name: 'test_queue' }            callback: service.name            qos_options:                prefetch_count: 1

@@ -1,0 +1,1 @@
+public function execute(AMQPMessage $message) {/* @var $channel AMQPChannel */$channel = $message->delivery_info['channel'];$channel->queue_purge();...// store in shared Storage......return true; // acknowledge}

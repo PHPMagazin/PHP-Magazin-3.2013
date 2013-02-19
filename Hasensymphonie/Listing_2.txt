@@ -1,0 +1,1 @@
+<code>[group:ecg]programs=userService-propagateHealthState[program:userService-propagateHealthState]command=/var/www/application/current/app/console icans:userService:propagateHealthStatedirectory=/var/www/application/currentnumprocs=1startsecs=5autorestart=trueautostart=falseuser=php-process</code>
