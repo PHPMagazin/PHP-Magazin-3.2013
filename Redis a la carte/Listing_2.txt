@@ -1,0 +1,1 @@
+====== SET ======  10000 requests completed in 0.08 seconds100.00% <= 0 milliseconds121951.22 requests per second====== GET ======  10000 requests completed in 0.09 seconds100.00% <= 0 milliseconds106382.98 requests per second
