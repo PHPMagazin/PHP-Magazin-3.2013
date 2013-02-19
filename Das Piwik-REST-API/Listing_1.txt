@@ -1,0 +1,1 @@
+[…,{label: "Windows 7",nb_uniq_visitors: 243,nb_visits: 259,nb_actions: 587,max_actions: 25,sum_visit_length: 36059,bounce_count: 182,nb_visits_converted: 9,logo: "plugins/UserSettings/images/os/WI7.gif",shortLabel: "Win 7"},…]
