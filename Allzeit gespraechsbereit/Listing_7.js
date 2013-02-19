@@ -1,0 +1,1 @@
+function openWebSocket() {    var wsckt = new WebSocket('ws://php.xmp.site:8000');    wsckt.onmessage = receivedMessage;    return wsckt;}

@@ -1,0 +1,1 @@
+/* click-EventListener */function makeNewMove(e) {    e.preventDefault();    var msg = this.firstChild.nodeValue;    wsckt.send(msg);}
